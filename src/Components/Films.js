@@ -24,7 +24,7 @@ export default class Films extends Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="container-card">
         <Card film={this.state.films} />
       </div>
     )
