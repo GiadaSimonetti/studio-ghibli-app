@@ -6,7 +6,7 @@ export default class Card extends Component {
         let film = this.props.film.map((film) => {
             return (
                 <div className="card col-md-6" style={{ width: '20rem' }} key={film.id}>
-                    
+
                     <div className="card-block">
                         <h2 className="card-title">{film.title}</h2>
                         <p className="card-text">{film.description.substring(0, 350)}</p>
@@ -20,7 +20,7 @@ export default class Card extends Component {
             )
         })
         return (
-            <div className="row p-1">
+            <div className="container-card">
                 {film}
             </div>
         )

@@ -1,3 +1,16 @@
+* {
+  box-sizing: border-box
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Dosis', sans-serif;
+  line-height: 1.6;
+  color: #666;
+  background: #F6F6F6;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -37,6 +50,7 @@ p {
 .container-card {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .card {
@@ -68,7 +82,7 @@ p {
 }
 
 ul {
-  list-style-image: none
+  list-style-type: circle;
 }
 
 .card:nth-child(2n) h2 {
