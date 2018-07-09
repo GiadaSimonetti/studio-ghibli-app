@@ -22,7 +22,7 @@ body {
   margin: 0 auto;
 }
 
-h1 {
+h2 {
   text-align: center;
   padding: 1.5rem 2.5rem;
   background-image: linear-gradient(120deg, #fbc2eb 0%, #a6c1ee 100%);
@@ -55,7 +55,6 @@ p {
 
 .card {
   align-self: auto;
-  flex: 0 1 200px;
   margin: 1rem;
   background: white;
   box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
@@ -84,6 +83,7 @@ p {
 ul {
   list-style-type: circle;
 }
+
 
 .card:nth-child(2n) h2 {
   background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
