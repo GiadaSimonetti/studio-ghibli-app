@@ -1,20 +1,14 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Films from './Films'
 
-class App extends Component {
+export default class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to Ghibli Studio World</h1>
-        </header>
+      <div className="Container">
+
         <Films />
       </div>
     );
   }
 }
-
-export default App;

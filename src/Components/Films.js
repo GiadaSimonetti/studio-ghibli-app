@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+import Card from './Card';
 
-class ImagesList extends Component {
+
+export default class Films extends Component {
 
   constructor() {
     super();
@@ -28,5 +30,3 @@ class ImagesList extends Component {
     )
   }
 }
-
-export default Films;
