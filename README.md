@@ -1,6 +1,6 @@
 ## Studio Ghibli app
 
-This a simple calendar app built in React.js that shows the film of the japanese Studio Ghibli
+This a simple app, built in React.js, that shows the film of the japanese Studio Ghibli.
 
 
 ![Studio-Ghibli](./public/1.png?raw=true)
